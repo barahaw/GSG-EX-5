@@ -92,6 +92,7 @@
   display: flex;
   gap: 30px;
   justify-content: flex-end;
+  margin-bottom: 10px;
 }
 .right-side .navbar div {
   width: 50px;
