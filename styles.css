@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-box {
+  width: 100%;
+  height: 30px;
+  background-color: gray;
+}
+.continer {
+  display: flex;
+  gap: 10%;
+}
+.continer .left-side {
+  flex-basis: 60%;
+  margin-top: 50px;
+}
+.continer .left-side .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.continer .left-side .menu .navbar {
+  display: flex;
+  gap: 10px;
+  margin-left: 5px;
+}
+
+.continer .left-side .menu .navbar div {
+  width: 50px;
+  height: 30px;
+  background-color: gray;
+}
+.continer .left-side .menu .navbar div:nth-of-type(2) {
+  background-color: rgba(128, 128, 128, 0.322);
+}
+.continer .left-side .menu .navbar div:nth-of-type(3) {
+  background-color: rgba(128, 128, 128, 0.322);
+}
+.box-main {
+  width: 100%;
+  height: 150px;
+  background-color: gray;
+  margin-left: 5px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card {
+  margin-left: 5px;
+}
+.box {
+  width: 120px;
+  height: 120px;
+  background-color: gray;
+  margin: 30px 0px 0px 0px;
+}
+.first-line {
+  width: 100%;
+  height: 10px;
+  background-color: gray;
+  margin-top: 10px;
+}
+.box-footer {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  margin-top: 10px;
+}
+.box-footer div:first-of-type {
+  flex-basis: 60%;
+  height: 10px;
+  background-color: gray;
+}
+.box-footer div:last-of-type {
+  flex-basis: 35%;
+  height: 10px;
+  background-color: gray;
+}
+.right-side {
+  margin-top: 50px;
+  flex-basis: 30%;
+  margin-right: 5px;
+}
+.right-side .navbar {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+}
+.right-side .navbar div {
+  width: 50px;
+  height: 30px;
+  background-color: gray;
+}
+.box-side {
+  width: 100%;
+  height: 150px;
+  background-color: darkgray;
+}
+.boxes {
+  margin-top: 15px;
+}
+.line-side {
+  width: 100%;
+  height: 20px;
+  margin-top: 10px;
+  background-color: gray;
+}
+.up-side {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.left {
+  width: 70px;
+  height: 70px;
+  background-color: gray;
+}
+
+.right div {
+  width: 300px;
+  height: 10px;
+  margin-bottom: 10px;
+
+  background-color: gray;
+}
+.bottm-side {
+  width: 100%;
+  height: 10px;
+  background-color: gray;
+}
+.split {
+  width: 100%;
+  height: 10px;
+  background-color: gray;
+  margin: 30px 0px;
+}
+.footer {
+  width: 100%;
+  height: 30px;
+  background-color: gray;
+  margin-top: 20px;
+}
